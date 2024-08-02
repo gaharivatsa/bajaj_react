@@ -1,0 +1,29 @@
+.App {
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 10rem;
+    padding: 2rem; 
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease; 
+}
+
+.App:hover {
+    transform: scale(1.05); 
+}
+
+.App > select {
+    background-color: black;
+}
+
+.h3 {
+    color : black;
+}
