@@ -18,7 +18,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       setErrorMessage('');
-      const response = await axios.post('http://127.0.0.1:5000/bfhl', jsonData);
+      const response = await axios.post('https://bajaj-backend-hq7a.vercel.app/bfhl', jsonData);
       setResponseData(response.data);
     } catch (error) {
       setErrorMessage('Invalid JSON or error processing the request');
